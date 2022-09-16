@@ -14,7 +14,7 @@ export default function socialMedia() {
         <i className="fab fa-github"></i>
         <span></span>
       </a>
-      <a
+      {/* <a
         href={socialMediaLinks.gitlab}
         className="icon-button gitlab"
         target="_blank"
@@ -31,7 +31,7 @@ export default function socialMedia() {
       >
         <i className="fab fa-linkedin-in"></i>
         <span></span>
-      </a>
+      </a> */}
       <a
         href={`mailto:${socialMediaLinks.gmail}`}
         className="icon-button google"
@@ -41,7 +41,7 @@ export default function socialMedia() {
         <i className="fab fa-google"></i>
         <span></span>
       </a>
-      <a
+      {/* <a
         href={socialMediaLinks.twitter}
         className="icon-button twitter"
         target="_blank"
@@ -58,7 +58,7 @@ export default function socialMedia() {
       >
         <i className="fab fa-instagram"></i>
         <span></span>
-      </a>
+      </a> */}
     </div>
   );
 }

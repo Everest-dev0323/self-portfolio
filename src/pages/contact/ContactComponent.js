@@ -22,10 +22,10 @@ function Contact(props) {
   });
 
   return (
-    <div className="contact-main">
+    <div className="contact-main" style={{ display: 'flex', flexDirection:'column', justifyContent:'space-between', height: '100vh' }}>
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
-        <Fade bottom duration={1000} distance="40px">
+        {/* <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <img
@@ -55,10 +55,10 @@ function Contact(props) {
               </a>
             </div>
           </div>
-        </Fade>
+        </Fade> */}
         <Fade bottom duration={1000} distance="40px">
           <div className="blog-heading-div">
-            <div className="blog-heading-text-div">
+            {/* <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
                 {blogSection["title"]}
               </h1>
@@ -73,7 +73,36 @@ function Contact(props) {
                   My Twitter Profile
                 </a>
               </div>
+            </div> */}
+            <div className="contact-heading-div">
+            {/* <div className="contact-heading-img-div">
+              <img
+                className="profile-pic"
+                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                alt=""
+              />
+            </div> */}
+            <div className="contact-heading-text-div">
+              <h1
+                className="contact-heading-text"
+                style={{ color: theme.text }}
+              >
+                {ContactData["title"]}
+              </h1>
+              <p
+                className="contact-header-detail-text subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {ContactData["description"]}
+              </p>
+              <SocialMedia />
+              <br />
+              <br />
+              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+                See my Resume
+              </a>
             </div>
+          </div>
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
             </div>

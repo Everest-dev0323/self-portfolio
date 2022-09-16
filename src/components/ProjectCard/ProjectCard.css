@@ -58,7 +58,6 @@
 .repo-description {
   word-wrap: break-word;
   text-align: left;
-  display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;

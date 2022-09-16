@@ -6,7 +6,7 @@ import Footer from "../../components/footer/Footer";
 
 function Home(props) {
   return (
-    <div>
+    <div style={{'width':'100vw'}}>
       <Header theme={props.theme} setTheme={props.setTheme} />
       <Greeting theme={props.theme} />
       <Skills theme={props.theme} />
