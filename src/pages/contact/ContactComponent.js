@@ -9,7 +9,6 @@ import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
@@ -22,7 +21,15 @@ function Contact(props) {
   });
 
   return (
-    <div className="contact-main" style={{ display: 'flex', flexDirection:'column', justifyContent:'space-between', height: '100vh' }}>
+    <div
+      className="contact-main"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        height: "100vh",
+      }}
+    >
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
         {/* <Fade bottom duration={1000} distance="40px">
@@ -75,34 +82,38 @@ function Contact(props) {
               </div>
             </div> */}
             <div className="contact-heading-div">
-            {/* <div className="contact-heading-img-div">
+              {/* <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
                 src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                 alt=""
               />
             </div> */}
-            <div className="contact-heading-text-div">
-              <h1
-                className="contact-heading-text"
-                style={{ color: theme.text }}
-              >
-                {ContactData["title"]}
-              </h1>
-              <p
-                className="contact-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {ContactData["description"]}
-              </p>
-              <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
+              <div className="contact-heading-text-div">
+                <h1
+                  className="contact-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {ContactData["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {ContactData["description"]}
+                </p>
+                <SocialMedia />
+                <br />
+                <br />
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={greeting.resumeLink}
+                >
+                  See my Resume
+                </a>
+              </div>
             </div>
-          </div>
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
             </div>

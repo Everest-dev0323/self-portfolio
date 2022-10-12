@@ -14,22 +14,22 @@ const greeting = {
   logo_name: "Tony.J(🤝)",
   nickname: "tony / jefferson",
   full_name: "Tony Jefferson",
-  subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1l6UOFlb7c69W9EkhyHv0YcRjCEzBj39t/view?usp=sharing",
+    "https://drive.google.com/file/d/1ED26yMd22Epx6m6xrr0XTMl6Rkpi7LXL/view?usp=sharing",
   mail: "tony0323jefferson@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/smartdever02",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
+  github: "https://github.com/everest-dev0323",
+  linkedin: "https://www.linkedin.com/in/tony-jefferson-a16355252",
   gmail: "tony0323jefferson@gmail.com",
   gitlab: "https://gitlab.com/harikanani",
   facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/Harikrushn9",
   instagram: "https://www.instagram.com/hari_kanani_/",
+  telegram: "https://t.me/eVerest0323",
 };
 
 const skills = {
@@ -42,7 +42,7 @@ const skills = {
         "⚡ Building responsive website front end using ReactJS + Vite + Typescript",
         "⚡ Developing mobile applications using Flutter and Android",
         "⚡ Creating application backend in Node, Express, RoR & Django",
-        "⚡ Integration of third party services such as Azure/ AWS / Digital Ocean"
+        "⚡ Integration of third party services such as Azure/ AWS / Digital Ocean",
       ],
       softwareSkills: [
         {
@@ -275,19 +275,19 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Norwegian University of Science and Technology",
+      title: "Hong Kong University of Science and Technology",
       subtitle: "Bachelor’s degree of computer engineering",
       logo_path: "ssec.png",
-      alt_name: "NTNU",
+      alt_name: "hkust",
       duration: "2017 - Present",
       descriptions: [
         "⚡ I currently have taken  Bachelor’s degree of computer engineering.",
         "⚡ I have an extensive experience in the Big Data Analysis, Design database, Network Security, SEO Optimization, etc.",
-        "⚡ Well- versed in numerous programming languages including Python, Typescript, and Blockchain technologies - Django, Smart Contracts, Ethereum, Web3,etc.",
+        "⚡ Well- versed in numerous programming languages including MERN, MEAN, Python, Typescript, and Blockchain technologies - Django, Smart Contracts, Ethereum, Web3,etc.",
         "⚡ I have a strong background in project management, colleagues and customer relations.",
-        "⚡ I have a amazing business sense."
+        "⚡ I have a amazing business sense.",
       ],
-      website_link: "https://www.mastersportal.com/",
+      website_link: "https://hkust.edu.hk/",
     },
   ],
 };
@@ -362,16 +362,15 @@ const experience = {
           logo_path: "valora.jpg",
           duration: "Apr 2016 - Present",
           location: "Office, remote",
-          description:
-          `Senior Web Developer specializing in Full Stack and Blockchain development.
+          description: `Senior Web Developer specializing in Full Stack and Blockchain development.
           Well- versed in numerous programming languages including Python, Typescript, and Blockchain technologies - Django, Smart Contracts, Ethereum, Web3,etc...
           Being innovative in creating reusable patterns and code, exceptional analytical and critical thinking, ability to function well in fast-paced/deadline-driven team environment.
           I have a strong background in project management, colleagues and customer relations. Hope to work in an innovative and creative team
           `,
           color: "#0071C5",
-        }
+        },
       ],
-    }
+    },
   ],
 };
 
@@ -406,12 +405,16 @@ const projects = {
       id: "0",
       name: "Taskify",
       url: "https://trallo-clone-mocha.vercel.app/",
-      description: "Used for increase the productivity and tracks your progress towards the your project or goal. It has a workspace features that means multiple people collobrate in one project. It has a features like create boards , add container in board and add task in container. Board member also add comment in perticular task and assign flag over that.",
+      description:
+        "Used for increase the productivity and tracks your progress towards the your project or goal. It has a workspace features that means multiple people collobrate in one project. It has a features like create boards , add container in board and add task in container. Board member also add comment in perticular task and assign flag over that.",
       languages: [
         {
           name: "React",
           iconifyClass: "logos-react",
-
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
         },
       ],
     },
@@ -498,8 +501,8 @@ const projects = {
           iconifyClass: "logos-react",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
         },
         {
           name: "NodeJS",
